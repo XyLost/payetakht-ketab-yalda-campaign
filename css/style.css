@@ -40,7 +40,7 @@
 }
 
 body {
-  background: linear-gradient(to bottom, #D3243B, #D5223E);
+  background: linear-gradient(to bottom, #d3243b, #d5223e);
   width: 100%;
   overflow-x: hidden;
   display: flex;
@@ -128,7 +128,7 @@ body .Yalda-Banner .Text button {
   gap: 14px;
   width: fit-content;
   box-shadow: 0px 4px 54.4px 0px rgba(212, 252, 99, 0.4);
-  background: linear-gradient(90.19deg, #88F469 -79.46%, #EEFF8D 111.93%);
+  background: linear-gradient(90.19deg, #88f469 -79.46%, #eeff8d 111.93%);
   padding: 12px 36px;
   cursor: pointer;
   border-radius: 20px;
@@ -212,7 +212,7 @@ body .Container-Products .Small-Sliders .Slides .Tag div {
   justify-content: center;
 }
 body .Container-Products .Small-Sliders .Slides .Tag span {
-  color: #E9E1B2;
+  color: #e9e1b2;
   font-size: 12px;
   font-family: "Regular", sans-serif;
 }
@@ -240,40 +240,91 @@ body .Container-Products .Small-Sliders .Slides .Section1 .Product-Infonmation {
   margin-top: 20px;
   width: 100%;
 }
-body .Container-Products .Small-Sliders .Slides .Section1 .Product-Infonmation .Product-Title {
+body
+  .Container-Products
+  .Small-Sliders
+  .Slides
+  .Section1
+  .Product-Infonmation
+  .Product-Title {
   font-family: "Bold", sans-serif;
   font-size: 18px;
 }
-body .Container-Products .Small-Sliders .Slides .Section1 .Product-Infonmation .Product-Details {
+body
+  .Container-Products
+  .Small-Sliders
+  .Slides
+  .Section1
+  .Product-Infonmation
+  .Product-Details {
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
-body .Container-Products .Small-Sliders .Slides .Section1 .Product-Infonmation .Product-Details .Word {
+body
+  .Container-Products
+  .Small-Sliders
+  .Slides
+  .Section1
+  .Product-Infonmation
+  .Product-Details
+  .Word {
   font-family: "Bold", sans-serif;
   font-size: 14px;
 }
-body .Container-Products .Small-Sliders .Slides .Section1 .Product-Infonmation .Product-Details .Details {
+body
+  .Container-Products
+  .Small-Sliders
+  .Slides
+  .Section1
+  .Product-Infonmation
+  .Product-Details
+  .Details {
   display: flex;
   flex-direction: column;
   gap: 6px;
 }
-body .Container-Products .Small-Sliders .Slides .Section1 .Product-Infonmation .Product-Details .Details * {
+body
+  .Container-Products
+  .Small-Sliders
+  .Slides
+  .Section1
+  .Product-Infonmation
+  .Product-Details
+  .Details
+  * {
   color: #485967;
   font-family: "Regular";
   font-size: 12px;
 }
-body .Container-Products .Small-Sliders .Slides .Section1 .Product-Infonmation .Product-Details .Details .Detail {
+body
+  .Container-Products
+  .Small-Sliders
+  .Slides
+  .Section1
+  .Product-Infonmation
+  .Product-Details
+  .Details
+  .Detail {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 6px;
 }
-body .Container-Products .Small-Sliders .Slides .Section1 .Product-Infonmation .Product-Details .Details .Detail span {
+body
+  .Container-Products
+  .Small-Sliders
+  .Slides
+  .Section1
+  .Product-Infonmation
+  .Product-Details
+  .Details
+  .Detail
+  span {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background-color: #0865FE;
+  background-color: #0865fe;
 }
 body .Container-Products .Small-Sliders .Slides .Section1 .Product-Price {
   display: flex;
@@ -282,49 +333,109 @@ body .Container-Products .Small-Sliders .Slides .Section1 .Product-Price {
   justify-content: space-between;
   width: 100%;
 }
-body .Container-Products .Small-Sliders .Slides .Section1 .Product-Price .Prices {
+body
+  .Container-Products
+  .Small-Sliders
+  .Slides
+  .Section1
+  .Product-Price
+  .Prices {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-body .Container-Products .Small-Sliders .Slides .Section1 .Product-Price .Prices .Price {
+body
+  .Container-Products
+  .Small-Sliders
+  .Slides
+  .Section1
+  .Product-Price
+  .Prices
+  .Price {
   font-size: 16px;
-  color: #8CA0B2;
+  color: #8ca0b2;
   font-family: "Regular", sans-serif;
   text-decoration: line-through;
   margin-left: 8px;
 }
-body .Container-Products .Small-Sliders .Slides .Section1 .Product-Price .Prices .Off-Price {
+body
+  .Container-Products
+  .Small-Sliders
+  .Slides
+  .Section1
+  .Product-Price
+  .Prices
+  .Off-Price {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 10px;
 }
-body .Container-Products .Small-Sliders .Slides .Section1 .Product-Price .Prices .Off-Price p {
+body
+  .Container-Products
+  .Small-Sliders
+  .Slides
+  .Section1
+  .Product-Price
+  .Prices
+  .Off-Price
+  p {
   font-size: 26px;
   font-family: "ExtraBold", sans-serif;
-  color: #FF2727;
+  color: #ff2727;
 }
-body .Container-Products .Small-Sliders .Slides .Section1 .Product-Price .Prices .Off-Price .Off-Label {
+body
+  .Container-Products
+  .Small-Sliders
+  .Slides
+  .Section1
+  .Product-Price
+  .Prices
+  .Off-Price
+  .Off-Label {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
 }
-body .Container-Products .Small-Sliders .Slides .Section1 .Product-Price .Prices .Off-Price .Off-Label .Off-Precent {
-  background-color: #FF2727;
+body
+  .Container-Products
+  .Small-Sliders
+  .Slides
+  .Section1
+  .Product-Price
+  .Prices
+  .Off-Price
+  .Off-Label
+  .Off-Precent {
+  background-color: #ff2727;
   color: #ffffff;
   border-radius: 100px;
   font-family: "Regular", sans-serif;
   font-size: 12px;
   padding: 2px 10px;
 }
-body .Container-Products .Small-Sliders .Slides .Section1 .Product-Price .Prices .Off-Price .Off-Label span {
+body
+  .Container-Products
+  .Small-Sliders
+  .Slides
+  .Section1
+  .Product-Price
+  .Prices
+  .Off-Price
+  .Off-Label
+  span {
   font-family: "Regular", sans-serif;
-  color: #FF2727;
+  color: #ff2727;
   font-size: 14px;
 }
-body .Container-Products .Small-Sliders .Slides .Section1 .Product-Price .Show-Product {
+body
+  .Container-Products
+  .Small-Sliders
+  .Slides
+  .Section1
+  .Product-Price
+  .Show-Product {
   all: unset;
   cursor: pointer;
   display: flex;
@@ -332,18 +443,38 @@ body .Container-Products .Small-Sliders .Slides .Section1 .Product-Price .Show-P
   align-items: center;
   gap: 10px;
 }
-body .Container-Products .Small-Sliders .Slides .Section1 .Product-Price .Show-Product:hover {
+body
+  .Container-Products
+  .Small-Sliders
+  .Slides
+  .Section1
+  .Product-Price
+  .Show-Product:hover {
   transition: scale 0.15s ease-in-out;
   scale: 1.05;
 }
-body .Container-Products .Small-Sliders .Slides .Section1 .Product-Price .Show-Product div {
+body
+  .Container-Products
+  .Small-Sliders
+  .Slides
+  .Section1
+  .Product-Price
+  .Show-Product
+  div {
   display: flex;
   align-items: center;
 }
-body .Container-Products .Small-Sliders .Slides .Section1 .Product-Price .Show-Product p {
+body
+  .Container-Products
+  .Small-Sliders
+  .Slides
+  .Section1
+  .Product-Price
+  .Show-Product
+  p {
   font-family: "Bold", sans-serif;
   font-size: 14px;
-  color: #0865FE;
+  color: #0865fe;
 }
 body .Container-Products .Small-Sliders .Slides .Section2 {
   display: flex;
@@ -358,14 +489,33 @@ body .Container-Products .Small-Sliders .Slides .Section2 .Product-Balance {
   flex-direction: column;
   gap: 10px;
 }
-body .Container-Products .Small-Sliders .Slides .Section2 .Product-Balance .Inf {
+body
+  .Container-Products
+  .Small-Sliders
+  .Slides
+  .Section2
+  .Product-Balance
+  .Inf {
   font-family: "Regular", sans-serif;
   font-size: 14px;
 }
-body .Container-Products .Small-Sliders .Slides .Section2 .Product-Balance .Inf strong {
-  color: #00C09B;
+body
+  .Container-Products
+  .Small-Sliders
+  .Slides
+  .Section2
+  .Product-Balance
+  .Inf
+  strong {
+  color: #00c09b;
 }
-body .Container-Products .Small-Sliders .Slides .Section2 .Product-Balance .Balance-Bar {
+body
+  .Container-Products
+  .Small-Sliders
+  .Slides
+  .Section2
+  .Product-Balance
+  .Balance-Bar {
   background-color: #eff1f3;
   height: 4px;
   width: 310px;
@@ -374,8 +524,15 @@ body .Container-Products .Small-Sliders .Slides .Section2 .Product-Balance .Bala
   position: relative;
   user-select: none;
 }
-body .Container-Products .Small-Sliders .Slides .Section2 .Product-Balance .Balance-Bar .Bar {
-  background-color: #00C09B;
+body
+  .Container-Products
+  .Small-Sliders
+  .Slides
+  .Section2
+  .Product-Balance
+  .Balance-Bar
+  .Bar {
+  background-color: #00c09b;
   height: 4px;
   right: 0;
   width: 44%;
@@ -388,22 +545,22 @@ body .Container-Products .Small-Sliders .Slides .Section2 .Off-Time {
   user-select: none;
 }
 body .Container-Products .Small-Sliders .Slides .Section2 .Off-Time .Word {
-  color: #FF2727;
+  color: #ff2727;
   font-family: "Regular", sans-serif;
   font-size: 14px;
 }
 body .Container-Products .Small-Sliders .Slides .Section2 .Off-Time .Time {
-  color: #FF2727;
+  color: #ff2727;
   font-family: "Bold", sans-serif;
   font-size: 20px;
 }
 body .Container-Products .Small-Sliders .Slides .Section2 .Off-Time .Time * {
-  color: #FF2727;
+  color: #ff2727;
   font-family: "Bold", sans-serif;
   font-size: 20px;
 }
 body .Container-Products .Small-Sliders .Slider {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 20px;
   padding: 30px;
   max-height: 420px;
@@ -434,7 +591,13 @@ body .Container-Products .Small-Sliders .Slider.Left .Slides .Product-Image {
   align-items: center;
   justify-content: center;
 }
-body .Container-Products .Small-Sliders .Slider.Left .Slides .Product-Image img {
+body
+  .Container-Products
+  .Small-Sliders
+  .Slider.Left
+  .Slides
+  .Product-Image
+  img {
   object-fit: contain;
   width: 100%;
   height: 100%;
@@ -451,29 +614,62 @@ body .Container-Products .Small-Sliders .Slider.Left .Slides .Product-Price {
   align-items: center;
   width: 100%;
 }
-body .Container-Products .Small-Sliders .Slider.Left .Slides .Product-Price .Prices {
+body
+  .Container-Products
+  .Small-Sliders
+  .Slider.Left
+  .Slides
+  .Product-Price
+  .Prices {
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
-body .Container-Products .Small-Sliders .Slider.Left .Slides .Product-Price .Prices .Price {
+body
+  .Container-Products
+  .Small-Sliders
+  .Slider.Left
+  .Slides
+  .Product-Price
+  .Prices
+  .Price {
   color: #485967;
   font-family: "Regular", sans-serif;
   text-decoration: line-through;
   font-size: 14px;
 }
-body .Container-Products .Small-Sliders .Slider.Left .Slides .Product-Price .Prices .Off-Price {
-  color: #0865FE;
+body
+  .Container-Products
+  .Small-Sliders
+  .Slider.Left
+  .Slides
+  .Product-Price
+  .Prices
+  .Off-Price {
+  color: #0865fe;
   font-size: 16px;
   font-family: "Bold", sans-serif;
 }
-body .Container-Products .Small-Sliders .Slider.Left .Slides .Product-Price .Show-Product {
+body
+  .Container-Products
+  .Small-Sliders
+  .Slider.Left
+  .Slides
+  .Product-Price
+  .Show-Product {
   display: flex;
   flex-direction: column;
   align-items: end;
   gap: 8px;
 }
-body .Container-Products .Small-Sliders .Slider.Left .Slides .Product-Price .Show-Product .Show {
+body
+  .Container-Products
+  .Small-Sliders
+  .Slider.Left
+  .Slides
+  .Product-Price
+  .Show-Product
+  .Show {
   all: unset;
   cursor: pointer;
   display: flex;
@@ -481,29 +677,78 @@ body .Container-Products .Small-Sliders .Slider.Left .Slides .Product-Price .Sho
   align-items: center;
   gap: 10px;
 }
-body .Container-Products .Small-Sliders .Slider.Left .Slides .Product-Price .Show-Product .Show:hover {
+body
+  .Container-Products
+  .Small-Sliders
+  .Slider.Left
+  .Slides
+  .Product-Price
+  .Show-Product
+  .Show:hover {
   transition: scale 0.15s ease-in-out;
   scale: 1.05;
 }
-body .Container-Products .Small-Sliders .Slider.Left .Slides .Product-Price .Show-Product .Show div {
+body
+  .Container-Products
+  .Small-Sliders
+  .Slider.Left
+  .Slides
+  .Product-Price
+  .Show-Product
+  .Show
+  div {
   display: flex;
   align-items: center;
 }
-body .Container-Products .Small-Sliders .Slider.Left .Slides .Product-Price .Show-Product .Show div svg {
-  fill: #FF2727;
+body
+  .Container-Products
+  .Small-Sliders
+  .Slider.Left
+  .Slides
+  .Product-Price
+  .Show-Product
+  .Show
+  div
+  svg {
+  fill: #ff2727;
 }
-body .Container-Products .Small-Sliders .Slider.Left .Slides .Product-Price .Show-Product .Show div svg path {
-  fill: #FF2727;
+body
+  .Container-Products
+  .Small-Sliders
+  .Slider.Left
+  .Slides
+  .Product-Price
+  .Show-Product
+  .Show
+  div
+  svg
+  path {
+  fill: #ff2727;
 }
-body .Container-Products .Small-Sliders .Slider.Left .Slides .Product-Price .Show-Product .Show p {
+body
+  .Container-Products
+  .Small-Sliders
+  .Slider.Left
+  .Slides
+  .Product-Price
+  .Show-Product
+  .Show
+  p {
   font-family: "Bold", sans-serif;
   font-size: 14px;
-  color: #FF2727;
+  color: #ff2727;
 }
-body .Container-Products .Small-Sliders .Slider.Left .Slides .Product-Price .Show-Product .Off-Precent {
+body
+  .Container-Products
+  .Small-Sliders
+  .Slider.Left
+  .Slides
+  .Product-Price
+  .Show-Product
+  .Off-Precent {
   width: fit-content;
   height: fit-content;
-  background-color: #FF2727;
+  background-color: #ff2727;
   color: #ffffff;
   border-radius: 100px;
   font-family: "Regular", sans-serif;
@@ -554,7 +799,7 @@ body .Container-Products .Big-Slider .Slides .Tag div {
   justify-content: center;
 }
 body .Container-Products .Big-Slider .Slides .Tag span {
-  color: #E9E1B2;
+  color: #e9e1b2;
   font-size: 12px;
   font-family: "Regular", sans-serif;
 }
@@ -597,7 +842,7 @@ body .Container-Products .Big-Slider .Slides .Product-Price .Prices .Price {
   font-size: 14px;
 }
 body .Container-Products .Big-Slider .Slides .Product-Price .Prices .Off-Price {
-  color: #0865FE;
+  color: #0865fe;
   font-size: 16px;
   font-family: "Bold", sans-serif;
 }
@@ -607,10 +852,16 @@ body .Container-Products .Big-Slider .Slides .Product-Price .Show-Product {
   align-items: end;
   gap: 8px;
 }
-body .Container-Products .Big-Slider .Slides .Product-Price .Show-Product .Off-Precent {
+body
+  .Container-Products
+  .Big-Slider
+  .Slides
+  .Product-Price
+  .Show-Product
+  .Off-Precent {
   width: fit-content;
   height: fit-content;
-  background-color: #FF2727;
+  background-color: #ff2727;
   color: #ffffff;
   border-radius: 100px;
   font-family: "Regular", sans-serif;
@@ -705,7 +956,7 @@ body .Transportation-Banner .Icons .Square {
   border-right-color: rgba(255, 255, 255, 0.75);
   border-bottom-color: rgba(245, 224, 195, 0.75);
   border-left-color: rgba(245, 224, 195, 0.75);
-  box-shadow: 0px 0px 31px 4px #EDC9AD;
+  box-shadow: 0px 0px 31px 4px #edc9ad;
 }
 body .Transportation-Banner .Icons .Square .Icon {
   display: flex;
@@ -814,7 +1065,11 @@ body .Category-Discount .Slider-Place .Slide::after {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2 !important;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.02) 100%);
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.02) 100%
+  );
 }
 body .Category-Discount .Slider-Place .Slide .Texts {
   position: absolute;
@@ -911,8 +1166,8 @@ body .Social-Links {
   align-self: center;
   margin-bottom: 20px;
   user-select: none;
-  background-color: #1B1A1A;
-  border: 1px solid #71D522;
+  background-color: #1b1a1a;
+  border: 1px solid #71d522;
   border-radius: 20px;
   z-index: 2;
 }
@@ -995,12 +1250,36 @@ body .Slider-DiscountPlus .DiscountPlus-Head .Nav {
   flex-direction: row;
   align-items: center;
 }
-body .Slider-DiscountPlus .DiscountPlus-Head .Nav .swiper-button-next-DiscountPlus,
-body .Slider-DiscountPlus .DiscountPlus-Head .Nav .swiper-button-prev-DiscountPlus,
-body .Slider-DiscountPlus .DiscountPlus-Head .Nav .swiper-button-prev-DiscountPlusA,
-body .Slider-DiscountPlus .DiscountPlus-Head .Nav .swiper-button-next-DiscountPlusA,
-body .Slider-DiscountPlus .DiscountPlus-Head .Nav .swiper-button-prev-DiscountPlusB,
-body .Slider-DiscountPlus .DiscountPlus-Head .Nav .swiper-button-next-DiscountPlusB {
+body
+  .Slider-DiscountPlus
+  .DiscountPlus-Head
+  .Nav
+  .swiper-button-next-DiscountPlus,
+body
+  .Slider-DiscountPlus
+  .DiscountPlus-Head
+  .Nav
+  .swiper-button-prev-DiscountPlus,
+body
+  .Slider-DiscountPlus
+  .DiscountPlus-Head
+  .Nav
+  .swiper-button-prev-DiscountPlusA,
+body
+  .Slider-DiscountPlus
+  .DiscountPlus-Head
+  .Nav
+  .swiper-button-next-DiscountPlusA,
+body
+  .Slider-DiscountPlus
+  .DiscountPlus-Head
+  .Nav
+  .swiper-button-prev-DiscountPlusB,
+body
+  .Slider-DiscountPlus
+  .DiscountPlus-Head
+  .Nav
+  .swiper-button-next-DiscountPlusB {
   z-index: 4;
 }
 body .Slider-DiscountPlus .DiscountPlus-Head .Word {
@@ -1045,7 +1324,7 @@ body .Slider-DiscountPlus .Slider-Place .Slider {
 body .Slider-DiscountPlus .Slider-Place .Slider .swiper-slide {
   width: 220px !important;
   height: 330px !important;
-  background: linear-gradient(180.54deg, #D5223E 74.93%, #468a15 115.92%);
+  background: linear-gradient(180.54deg, #d5223e 74.93%, #468a15 115.92%);
   background-blend-mode: overlay;
   border-radius: 24px;
   position: relative;
@@ -1106,16 +1385,30 @@ body .Slider-DiscountPlus .Slider-Place .Slider .Slide .Prices .Price {
   flex-direction: column;
   align-items: center;
 }
-body .Slider-DiscountPlus .Slider-Place .Slider .Slide .Prices .Price .Not-Discount {
+body
+  .Slider-DiscountPlus
+  .Slider-Place
+  .Slider
+  .Slide
+  .Prices
+  .Price
+  .Not-Discount {
   font-family: "Regular", sans-serif;
   color: rgba(229, 236, 241, 0.6);
   text-decoration: line-through;
   font-size: 16px;
   line-height: 20px;
 }
-body .Slider-DiscountPlus .Slider-Place .Slider .Slide .Prices .Price .Discount {
+body
+  .Slider-DiscountPlus
+  .Slider-Place
+  .Slider
+  .Slide
+  .Prices
+  .Price
+  .Discount {
   font-family: "ExtraBold", sans-serif;
-  color: #E5ECF1;
+  color: #e5ecf1;
   font-size: 16px;
   line-height: 20px;
 }
@@ -1124,7 +1417,14 @@ body .Slider-DiscountPlus .Slider-Place .Slider .Slide .Prices .Dis-Precent {
   flex-direction: column;
   align-items: center;
 }
-body .Slider-DiscountPlus .Slider-Place .Slider .Slide .Prices .Dis-Precent .Off-Precent {
+body
+  .Slider-DiscountPlus
+  .Slider-Place
+  .Slider
+  .Slide
+  .Prices
+  .Dis-Precent
+  .Off-Precent {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -1133,12 +1433,19 @@ body .Slider-DiscountPlus .Slider-Place .Slider .Slide .Prices .Dis-Precent .Off
   font-family: "Regular", sans-serif;
   font-size: 11px;
   line-height: 0;
-  background-color: #FF253F;
+  background-color: #ff253f;
   border-radius: 100px;
   width: fit-content;
   padding: 10px;
 }
-body .Slider-DiscountPlus .Slider-Place .Slider .Slide .Prices .Dis-Precent span {
+body
+  .Slider-DiscountPlus
+  .Slider-Place
+  .Slider
+  .Slide
+  .Prices
+  .Dis-Precent
+  span {
   color: #ffffff;
   font-family: "Light", sans-serif;
   font-size: 14px;
@@ -1167,7 +1474,7 @@ body .Slider-DiscountPlus.A .DiscountPlus-Head .Melon img {
 }
 body .Slider-DiscountPlus.A .DiscountPlus-Head .SeeMore {
   position: absolute;
-  background-color: #E5ECF1;
+  background-color: #e5ecf1;
   width: 200px;
   height: 48px;
   z-index: 1 !important;
@@ -1250,7 +1557,7 @@ body .Slider-DiscountPlus.A.Motavasete .DiscountPlus-Head .Offer-Timer {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(180deg, #FF7D8D 0%, #FF253F 100%);
+  background: linear-gradient(180deg, #ff7d8d 0%, #ff253f 100%);
 }
 body .Slider-DiscountPlus.A.Motavasete .DiscountPlus-Head .Offer-Timer p {
   font-size: 16px;
@@ -1280,14 +1587,23 @@ body .Slider-DiscountPlus.A.Motavasete .DiscountPlus-Head .Pagination * {
   align-items: center;
   justify-content: space-between;
 }
-body .Slider-DiscountPlus.A.Motavasete .DiscountPlus-Head .Pagination .Options-Classes-Selecting {
+body
+  .Slider-DiscountPlus.A.Motavasete
+  .DiscountPlus-Head
+  .Pagination
+  .Options-Classes-Selecting {
   width: 210px;
   height: 40px;
   padding: 4px;
   border-radius: 100px;
-  background-color: #F3F7FB;
+  background-color: #f3f7fb;
 }
-body .Slider-DiscountPlus.A.Motavasete .DiscountPlus-Head .Pagination .Options-Classes-Selecting .Class-Name-Select {
+body
+  .Slider-DiscountPlus.A.Motavasete
+  .DiscountPlus-Head
+  .Pagination
+  .Options-Classes-Selecting
+  .Class-Name-Select {
   height: 100%;
   width: 60px;
   display: flex;
@@ -1297,7 +1613,12 @@ body .Slider-DiscountPlus.A.Motavasete .DiscountPlus-Head .Pagination .Options-C
   border-radius: 100px;
   cursor: pointer;
 }
-body .Slider-DiscountPlus.A.Motavasete .DiscountPlus-Head .Pagination .Options-Classes-Selecting .Class-Name-Select.selected {
+body
+  .Slider-DiscountPlus.A.Motavasete
+  .DiscountPlus-Head
+  .Pagination
+  .Options-Classes-Selecting
+  .Class-Name-Select.selected {
   background-color: #ffffff;
 }
 body .Discount-Code-Banner {
@@ -1308,7 +1629,13 @@ body .Discount-Code-Banner {
   align-items: center;
   justify-content: center;
   height: 290px;
-  background: linear-gradient(89.45deg, #00C09B -12.67%, #9DF782 25.56%, #ACEF98 74.38%, #61EDD2 104.96%);
+  background: linear-gradient(
+    89.45deg,
+    #00c09b -12.67%,
+    #9df782 25.56%,
+    #acef98 74.38%,
+    #61edd2 104.96%
+  );
   margin-bottom: 80px;
 }
 body .Discount-Code-Banner .Items {
@@ -1357,7 +1684,7 @@ body .Discount-Code-Banner .Items .Box-Copy-Code {
   align-items: center;
   justify-content: center;
   border-radius: 20px;
-  border: 2px solid #D5223E;
+  border: 2px solid #d5223e;
   position: relative;
   overflow: hidden;
   gap: 10px;
@@ -1373,7 +1700,11 @@ body .Discount-Code-Banner .Items .Box-Copy-Code .Back {
   z-index: 2 !important;
   width: 100%;
   height: 100%;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(114, 118, 124, 0.75) 10%, #020202 100%);
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(114, 118, 124, 0.75) 10%,
+    #020202 100%
+  );
 }
 body .Discount-Code-Banner .Items .Box-Copy-Code img {
   position: absolute;
@@ -1411,7 +1742,7 @@ body .Discount-Code-Banner .Items .Box-Copy-Code .Copy-Place {
   padding: 6px 16px 6px 6px;
   width: 200px;
   height: 50px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 12px;
   margin-top: 10px;
   margin-bottom: -10px;
@@ -1428,7 +1759,7 @@ body .Discount-Code-Banner .Items .Box-Copy-Code .Copy-Place .CopyBtn {
   align-items: center;
   justify-content: center;
   gap: 4px;
-  background-color: #D5223E;
+  background-color: #d5223e;
   width: 86px;
   height: 36px;
   border-radius: 12px;
@@ -1460,7 +1791,7 @@ body .Discount-Code-Banner .Items .Using-Bar .Bar-B {
   width: 250px;
   height: 5px;
   border-radius: 100px;
-  background-color: #D5223E;
+  background-color: #d5223e;
   margin-bottom: 6px;
   position: relative;
   display: flex;
@@ -1554,7 +1885,14 @@ body .Discount-Code-Banner .Items .Using-Bar .Word2 {
   body .Container-Products .Small-Sliders .Slider.Left .Slides .Product-Price {
     align-items: flex-start;
   }
-  body .Container-Products .Small-Sliders .Slider.Left .Slides .Product-Price .Show-Product .Show {
+  body
+    .Container-Products
+    .Small-Sliders
+    .Slider.Left
+    .Slides
+    .Product-Price
+    .Show-Product
+    .Show {
     display: none !important;
   }
   body .Social-Links {
@@ -1569,22 +1907,73 @@ body .Discount-Code-Banner .Items .Using-Bar .Word2 {
   }
 }
 @media (max-width: 1050px) {
-  body .Container-Products .Small-Sliders .Slider.Right .Slides .Section1 .Product-Infonmation .Product-Title {
+  body
+    .Container-Products
+    .Small-Sliders
+    .Slider.Right
+    .Slides
+    .Section1
+    .Product-Infonmation
+    .Product-Title {
     font-size: 16px;
   }
-  body .Container-Products .Small-Sliders .Slider.Right .Slides .Section1 .Product-Infonmation .Product-Details .Word {
+  body
+    .Container-Products
+    .Small-Sliders
+    .Slider.Right
+    .Slides
+    .Section1
+    .Product-Infonmation
+    .Product-Details
+    .Word {
     font-size: 12px;
   }
-  body .Container-Products .Small-Sliders .Slider.Right .Slides .Section1 .Product-Infonmation .Product-Details .Details * {
+  body
+    .Container-Products
+    .Small-Sliders
+    .Slider.Right
+    .Slides
+    .Section1
+    .Product-Infonmation
+    .Product-Details
+    .Details
+    * {
     font-size: 10px;
   }
-  body .Container-Products .Small-Sliders .Slider.Right .Slides .Section1 .Product-Infonmation .Product-Price .Prices .Price {
+  body
+    .Container-Products
+    .Small-Sliders
+    .Slider.Right
+    .Slides
+    .Section1
+    .Product-Infonmation
+    .Product-Price
+    .Prices
+    .Price {
     font-size: 14px;
   }
-  body .Container-Products .Small-Sliders .Slider.Right .Slides .Section1 .Product-Infonmation .Product-Price .Prices .Off-Price p {
+  body
+    .Container-Products
+    .Small-Sliders
+    .Slider.Right
+    .Slides
+    .Section1
+    .Product-Infonmation
+    .Product-Price
+    .Prices
+    .Off-Price
+    p {
     font-size: 20px;
   }
-  body .Container-Products .Small-Sliders .Slider.Right .Slides .Section1 .Product-Infonmation .Product-Price .Show-Product {
+  body
+    .Container-Products
+    .Small-Sliders
+    .Slider.Right
+    .Slides
+    .Section1
+    .Product-Infonmation
+    .Product-Price
+    .Show-Product {
     display: none;
   }
   body .Transportation-Banner .Banner-Texts .Text .BigText * {
@@ -1645,7 +2034,7 @@ body .Discount-Code-Banner .Items .Using-Bar .Word2 {
     display: none;
   }
   body .Slider-DiscountPlus.A .DiscountPlus-Head .SeeMore p {
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 10px;
   }
   body .Discount-Code-Banner .Items .Texts {
@@ -1874,38 +2263,122 @@ body .Discount-Code-Banner .Items .Using-Bar .Word2 {
     justify-content: center;
     gap: 0;
   }
-  body .Container-Products .Small-Sliders .Slider.Right .Slides .Section1 .Product-Image {
+  body
+    .Container-Products
+    .Small-Sliders
+    .Slider.Right
+    .Slides
+    .Section1
+    .Product-Image {
     max-height: 170px !important;
     max-width: 100px !important;
   }
-  body .Container-Products .Small-Sliders .Slider.Right .Slides .Section1 .Product-Infonmation {
+  body
+    .Container-Products
+    .Small-Sliders
+    .Slider.Right
+    .Slides
+    .Section1
+    .Product-Infonmation {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  body .Container-Products .Small-Sliders .Slider.Right .Slides .Section1 .Product-Infonmation .Product-Title {
+  body
+    .Container-Products
+    .Small-Sliders
+    .Slider.Right
+    .Slides
+    .Section1
+    .Product-Infonmation
+    .Product-Title {
     font-size: 14px;
   }
-  body .Container-Products .Small-Sliders .Slider.Right .Slides .Section1 .Product-Infonmation .Product-Details {
+  body
+    .Container-Products
+    .Small-Sliders
+    .Slider.Right
+    .Slides
+    .Section1
+    .Product-Infonmation
+    .Product-Details {
     display: none;
   }
-  body .Container-Products .Small-Sliders .Slider.Right .Slides .Section1 .Product-Infonmation .Product-Price {
+  body
+    .Container-Products
+    .Small-Sliders
+    .Slider.Right
+    .Slides
+    .Section1
+    .Product-Infonmation
+    .Product-Price {
     justify-content: center;
     margin-top: 10px;
   }
-  body .Container-Products .Small-Sliders .Slider.Right .Slides .Section1 .Product-Infonmation .Product-Price .Prices .Price {
+  body
+    .Container-Products
+    .Small-Sliders
+    .Slider.Right
+    .Slides
+    .Section1
+    .Product-Infonmation
+    .Product-Price
+    .Prices
+    .Price {
     font-size: 12px;
   }
-  body .Container-Products .Small-Sliders .Slider.Right .Slides .Section1 .Product-Infonmation .Product-Price .Prices .Off-Price p {
+  body
+    .Container-Products
+    .Small-Sliders
+    .Slider.Right
+    .Slides
+    .Section1
+    .Product-Infonmation
+    .Product-Price
+    .Prices
+    .Off-Price
+    p {
     font-size: 16px;
   }
-  body .Container-Products .Small-Sliders .Slider.Right .Slides .Section1 .Product-Infonmation .Product-Price .Prices .Off-Price .Off-Label {
+  body
+    .Container-Products
+    .Small-Sliders
+    .Slider.Right
+    .Slides
+    .Section1
+    .Product-Infonmation
+    .Product-Price
+    .Prices
+    .Off-Price
+    .Off-Label {
     gap: 0;
   }
-  body .Container-Products .Small-Sliders .Slider.Right .Slides .Section1 .Product-Infonmation .Product-Price .Prices .Off-Price .Off-Label span {
+  body
+    .Container-Products
+    .Small-Sliders
+    .Slider.Right
+    .Slides
+    .Section1
+    .Product-Infonmation
+    .Product-Price
+    .Prices
+    .Off-Price
+    .Off-Label
+    span {
     font-size: 12px;
   }
-  body .Container-Products .Small-Sliders .Slider.Right .Slides .Section1 .Product-Infonmation .Product-Price .Prices .Off-Price .Off-Label .Off-Precent {
+  body
+    .Container-Products
+    .Small-Sliders
+    .Slider.Right
+    .Slides
+    .Section1
+    .Product-Infonmation
+    .Product-Price
+    .Prices
+    .Off-Price
+    .Off-Label
+    .Off-Precent {
     font-size: 10px;
     padding: 2px 6px;
   }
@@ -1916,15 +2389,36 @@ body .Discount-Code-Banner .Items .Using-Bar .Word2 {
     align-items: center;
     gap: 14px;
   }
-  body .Container-Products .Small-Sliders .Slider.Right .Slides .Section2 .Product-Balance .Balance-Bar {
+  body
+    .Container-Products
+    .Small-Sliders
+    .Slider.Right
+    .Slides
+    .Section2
+    .Product-Balance
+    .Balance-Bar {
     width: 250px;
   }
-  body .Container-Products .Small-Sliders .Slider.Right .Slides .Section2 .Off-Time {
+  body
+    .Container-Products
+    .Small-Sliders
+    .Slider.Right
+    .Slides
+    .Section2
+    .Off-Time {
     flex-direction: row !important;
     align-items: center;
     gap: 10px;
   }
-  body .Container-Products .Small-Sliders .Slider.Right .Slides .Section2 .Off-Time .Time * {
+  body
+    .Container-Products
+    .Small-Sliders
+    .Slider.Right
+    .Slides
+    .Section2
+    .Off-Time
+    .Time
+    * {
     font-size: 16px;
   }
 }
